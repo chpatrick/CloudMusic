@@ -11,11 +11,6 @@
   </welcome-file-list>
   
   <servlet>
-    <servlet-name>HelloWorldServlet</servlet-name>
-    <servlet-class>HelloWorld</servlet-class>
-  </servlet>
-
-  <servlet>
     <servlet-name>MusicStreamServer</servlet-name>
     <servlet-class>org.ds.coursework.service.MusicStreamServer</servlet-class>
   </servlet>
@@ -24,11 +19,6 @@
     <servlet-name>MusicManagementService</servlet-name>
     <servlet-class>org.ds.coursework.service.MusicManagementService</servlet-class>
   </servlet>
-    
-  <servlet-mapping>
-    <servlet-name>HelloWorldServlet</servlet-name>
-    <url-pattern>/</url-pattern>
-  </servlet-mapping>
   
   <servlet-mapping>
     <servlet-name>MusicManagementService</servlet-name>
