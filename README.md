@@ -6,6 +6,13 @@ actually deploys to Personal Tomcat correctly and reads credentials from
 s3credentials.properties. Pull requests are welcome for improvements but
 obviously not for implemented solutions.
 
+Eclipse
+-------
+In Eclipse, create a new Dynamic Web project with the same base directory as
+this repository. Leave all the settings on default (no target runtime).
+Add /usr/share/java/servlet-api.jar to the classpath using the Build Path
+dialog and the External JARs... button.
+
 Deployment
 ----------
 On a lab machine/shell, run mktomcat7 tomcatdir. This produces a personal
